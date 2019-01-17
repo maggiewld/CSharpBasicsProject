@@ -1,0 +1,7 @@
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\bin\Debug\Treehouse.SimpleConsoleApp.exe.config
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\bin\Debug\Treehouse.SimpleConsoleApp.exe
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\bin\Debug\Treehouse.SimpleConsoleApp.pdb
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\obj\Debug\Treehouse.SimpleConsoleApp.csprojAssemblyReference.cache
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\obj\Debug\Treehouse.SimpleConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\obj\Debug\Treehouse.SimpleConsoleApp.exe
+C:\Users\Maggie\Desktop\Web Dev\C#\Treehouse.SimpleConsoleApp\Treehouse.SimpleConsoleApp\obj\Debug\Treehouse.SimpleConsoleApp.pdb
