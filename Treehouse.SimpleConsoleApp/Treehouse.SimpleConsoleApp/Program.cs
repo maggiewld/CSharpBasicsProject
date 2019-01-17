@@ -11,6 +11,10 @@ namespace Treehouse.SimpleConsoleApp
         static void Main(string[] args)
         {
             //Prompt the user for the minutes exercised
+            System.Console.Write("Enter how many minutes you exercised: ");
+            string entry = System.Console.ReadLine();
+
+            
             //Add minutes exercised to total
             //Display total minutes exercised to the screen
             //Repeat until the user quits
