@@ -22,32 +22,47 @@ namespace Treehouse.SimpleConsoleApp
                 }
                 else
                 {
-
-                    int minutes = int.Parse(entry);
-                    if (minutes <= 10)
+                    try
                     {
-                        Console.WriteLine("Better than nothing, am I right?");
-                    }
-                    else if (minutes <= 30)
-                    {
-                        Console.WriteLine("Way to go hot stuff!");
-                    }
-                    else if (minutes <= 60)
-                    {
-                        Console.WriteLine("You must be a ninja warrior in training!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Okay, now you're just showing off!");
-                    }
+                        int minutes = int.Parse(entry);
 
-                    runningTotal = runningTotal + minutes;
+                            if (minutes <= 0)
+                            {
+                                Console.WriteLine(minutes + " is not an acceptable value.");
+                                continue; //This resets to beginning prompt.
+                            }
+                            else if (minutes <= 10)
+                            {
+                                Console.WriteLine("Better than nothing, am I right?");
+                            }
+                            else if (minutes <= 30)
+                            {
+                                Console.WriteLine("Way to go hot stuff!");
+                            }
+                            else if (minutes <= 60)
+                            {
+                                Console.WriteLine("You must be a ninja warrior in training!");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Okay, now you're just showing off!");
+                            }
 
-                    //Add minutes exercised to total
-                    //Display total minutes exercised to the screen
-                    Console.WriteLine("You've exercised " + runningTotal + " minutes.");
+                            //Add minutes exercised to total
+                            runningTotal = runningTotal + minutes;
 
-                    //Repeat until the user quits
+                            
+                            //Display total minutes exercised to the screen
+                            Console.WriteLine("You've exercised " + runningTotal + " minutes.");
+
+                            //Repeat until the user quits
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("That is not valid input.");
+                        continue; //Resets to input prompt.
+                    }
+                             
                 }
                 
             }
