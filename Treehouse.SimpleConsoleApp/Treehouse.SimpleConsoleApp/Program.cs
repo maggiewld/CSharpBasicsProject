@@ -7,7 +7,7 @@ namespace Treehouse.SimpleConsoleApp
     {
         static void Main(string[] args)
         {
-            int runningTotal = 0;
+            double runningTotal = 0;
             bool keepGoing = true;
 
             while(keepGoing)
@@ -16,7 +16,7 @@ namespace Treehouse.SimpleConsoleApp
                 Console.Write("Enter how many minutes you exercised or type \"quit\" to exit: ");
                 string entry = Console.ReadLine();
 
-                if (entry == "quit")
+                if (entry.ToLower() == "quit")
                 {
                     keepGoing = false;
                 }
@@ -24,7 +24,7 @@ namespace Treehouse.SimpleConsoleApp
                 {
                     try
                     {
-                        int minutes = int.Parse(entry);
+                        double minutes = double.Parse(entry);
 
                             if (minutes <= 0)
                             {
@@ -57,7 +57,7 @@ namespace Treehouse.SimpleConsoleApp
 
                             //Repeat until the user quits
                     }
-                    catch (FormatException)
+                    catch (FormatException) //Expected input error, NaN.
                     {
                         Console.WriteLine("That is not valid input.");
                         continue; //Resets to input prompt.
