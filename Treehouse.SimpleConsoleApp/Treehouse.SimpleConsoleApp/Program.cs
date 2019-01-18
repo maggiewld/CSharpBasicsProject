@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Treehouse.SimpleConsoleApp
 {
@@ -11,12 +8,14 @@ namespace Treehouse.SimpleConsoleApp
         static void Main(string[] args)
         {
             //Prompt the user for the minutes exercised
-            System.Console.Write("Enter how many minutes you exercised: ");
-            string entry = System.Console.ReadLine();
+            Console.Write("Enter how many minutes you exercised: ");
+            string entry = Console.ReadLine();
 
-            
+
             //Add minutes exercised to total
             //Display total minutes exercised to the screen
+            Console.WriteLine("You've exercised " + entry + " minutes.");
+
             //Repeat until the user quits
         }
     }
