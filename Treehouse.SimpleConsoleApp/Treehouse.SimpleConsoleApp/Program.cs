@@ -55,7 +55,7 @@ namespace Treehouse.SimpleConsoleApp
 
                         //Repeat until the user quits
                 }
-                    catch (FormatException) //Expected input error, NaN.
+                    catch (FormatException) //Input validation. Expected input error, NaN.
                 {
                     Console.WriteLine("That is not valid input.");
                     continue; //Resets to input prompt.
